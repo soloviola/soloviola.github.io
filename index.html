@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website - Professional profile">
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-header">
+                <div class="profile-image-container">
+                    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-image" id="profileImage">
+                </div>
+                <div class="profile-info">
+                    <h1 class="name">Your Name</h1>
+                    <p class="title">Your Professional Title</p>
+                    <p class="location">📍 Location</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="mailto:your.email@example.com" class="btn btn-primary">Contact</a>
+                <a href="resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section class="card about-section">
+                <h2 class="section-title">About</h2>
+                <p class="about-text">
+                    Write a brief introduction about yourself here. This section should highlight your professional background, 
+                    key achievements, and what makes you unique. Keep it concise and impactful.
+                </p>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="card experience-section">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3 class="job-title">Senior Software Engineer</h3>
+                            <span class="company">Company Name</span>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="duration">Jan 2020 - Present</span>
+                            <span class="location">City, Country</span>
+                        </div>
+                        <ul class="job-description">
+                            <li>Led development of scalable web applications</li>
+                            <li>Mentored junior developers and improved team productivity</li>
+                            <li>Implemented CI/CD pipelines reducing deployment time by 40%</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3 class="job-title">Software Engineer</h3>
+                            <span class="company">Previous Company</span>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="duration">Jun 2017 - Dec 2019</span>
+                            <span class="location">City, Country</span>
+                        </div>
+                        <ul class="job-description">
+                            <li>Developed and maintained RESTful APIs</li>
+                            <li>Collaborated with cross-functional teams to deliver features</li>
+                            <li>Optimized database queries improving performance by 30%</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="card education-section">
+                <h2 class="section-title">Education</h2>
+                <div class="education-list">
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h3 class="degree">Bachelor of Science in Computer Science</h3>
+                            <span class="school">University Name</span>
+                        </div>
+                        <div class="education-meta">
+                            <span class="duration">2013 - 2017</span>
+                            <span class="gpa">GPA: 3.8/4.0</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="card skills-section">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4 class="skill-category-title">Programming Languages</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">Java</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4 class="skill-category-title">Frameworks & Tools</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="card projects-section">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-list">
+                    <div class="project-item">
+                        <h3 class="project-title">Project Name</h3>
+                        <p class="project-description">
+                            Brief description of your project. What problem does it solve? What technologies did you use?
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/username/project" target="_blank" class="project-link">GitHub</a>
+                            <a href="https://project-demo.com" target="_blank" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="project-title">Another Project</h3>
+                        <p class="project-description">
+                            Another project description highlighting your skills and achievements.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/username/project2" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="card contact-section">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-link">
+                        <span class="contact-icon">✉️</span>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/username" target="_blank" class="contact-link">
+                        <span class="contact-icon">🔗</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://twitter.com/username" target="_blank" class="contact-link">
+                        <span class="contact-icon">🐦</span>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
