@@ -39,10 +39,37 @@ body {
     padding: var(--spacing-xl) var(--spacing-lg);
 }
 
+/* Site Nav (for blog-style pages) */
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: var(--spacing-lg);
+}
+
+.site-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    gap: var(--spacing-md);
+    font-size: 0.95rem;
+}
+
+.nav-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--text-primary);
+}
+
 /* Header Styles */
 .header {
-    padding: var(--spacing-xl) 0;
-    margin-bottom: var(--spacing-xl);
+    padding-top: var(--spacing-xl) 0;
 }
 
 .profile-header {
@@ -147,6 +174,10 @@ body {
     color: var(--text-secondary);
     line-height: 1.8;
     font-size: 1rem;
+}
+
+.about-section .about-text:not(:last-child) {
+    margin-bottom: var(--spacing-sm);
 }
 
 /* Experience Section */
@@ -385,7 +416,9 @@ body {
 }
 
 .contact-icon {
-    font-size: 1.2rem;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
 }
 
 /* Footer */
@@ -394,6 +427,73 @@ body {
     padding: var(--spacing-lg);
     color: var(--text-light);
     font-size: 0.9rem;
+}
+
+/* Blog / Writing page */
+.blog-header {
+    margin-bottom: var(--spacing-xl);
+}
+
+.blog-subtitle {
+    color: var(--text-secondary);
+    margin-top: var(--spacing-xs);
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.post-item {
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
+.post-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-xs);
+}
+
+.post-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
+.post-meta {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: var(--spacing-sm);
+}
+
+.post-excerpt {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--spacing-xl);
+    font-size: 0.9rem;
+}
+
+.pagination a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive Design */
