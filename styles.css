@@ -600,6 +600,43 @@ body {
     padding: 0;
 }
 
+.post-body blockquote,
+.post-blockquote {
+    border-left: 4px solid var(--primary-color);
+    padding: var(--spacing-md);
+    margin: var(--spacing-md) 0;
+    color: var(--text-secondary);
+    font-style: italic;
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius);
+}
+
+.post-body hr,
+.post-divider {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: var(--spacing-xl) 0;
+}
+
+.post-figure {
+    margin: var(--spacing-lg) 0;
+}
+
+.post-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin-bottom: var(--spacing-xs);
+}
+
+.post-figure figcaption {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    text-align: center;
+    font-style: italic;
+    margin-top: var(--spacing-xs);
+}
+
 .post-footer {
     margin-top: var(--spacing-xl);
     padding-top: var(--spacing-lg);
