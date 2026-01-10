@@ -67,6 +67,11 @@ body {
     color: var(--text-primary);
 }
 
+.nav-link.active {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
 /* Header Styles */
 .header {
     padding-top: var(--spacing-xl) 0;
